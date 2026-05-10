@@ -1,0 +1,5 @@
+*.pdf
+
+# Nix
+.direnv/
+result
