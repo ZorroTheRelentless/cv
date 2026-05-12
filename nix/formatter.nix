@@ -28,12 +28,6 @@ let
 
       # SVG validation
       xmllint.enable = true;
-
-
-      # Spell-checking source code
-      typos.enable = true;
-      autocorrect.enable = true;
-
     };
   };
   formatter = treefmtEval.config.build.wrapper;

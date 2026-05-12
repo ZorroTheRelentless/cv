@@ -7,7 +7,11 @@
 #let github = "github.com/ZorroTheRelentless"
 #let linkedin = "linkedin.com/in/zoravar-singh-kalkat-b361a4312"
 #let contacts = (
-  [#link("mailto:" + email)[#text(font: "Font Awesome 7 Free", baseline: 0.1pt, size: 7pt)[🖂] #email]],
+  [#link("mailto:" + email)[#text(
+      font: "Font Awesome 7 Free",
+      baseline: 0.1pt,
+      size: 7pt,
+    )[🖂] #email]],
   [#link("https://" + homepage + "/en/")[#text(
       font: "Font Awesome 7 Free",
       baseline: -0.35pt,
@@ -161,7 +165,7 @@
     strong foundation in clinical practice and developed a growing interest in
     traumatology and orthopaedics, supported by both academic study and clinical
     experience.
-    - Adapted quickly to clinical work during the pratical year which, included internal medicine, surgery, emergency care, and infectious diseases.
+    - Adapted quickly to clinical work during the practical year which, included internal medicine, surgery, emergency care, and infectious diseases.
     - Developed strong interest in microbiology, anatomy, and point of care ultrasonography.
     - Volunteered prior to and during clinical years, with consistent involvement in:
       - *Emergency Department*: Hands-on experience in trauma and polytrauma care;
@@ -225,6 +229,9 @@
     classification and enhancement.
   ],
 )
+
+// ADD CS50 cert #edu( )
+
 #edu(
   institution: [World Health Organization -- Global Health Training Center ],
   date: [2024],
@@ -232,8 +239,6 @@
   degrees: (("ICH GCP", "Good Clinical Practice E6(R2)"),),
   extra: [
     #set text(style: "oblique", weight: "thin")
-    Course covering the ethical principles,
-    regulatory standards, and investigator responsibilities in clinical research.
-    Focused on participant safety, and study data integrity which has informed how I approach data processing in my research work.
+    Course covering the ethical principles, regulatory standards, and investigator responsibilities in clinical research. Focused on participant safety, and study data integrity which has informed how I approach data processing in my research work.
   ],
 )

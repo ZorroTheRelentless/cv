@@ -7,7 +7,11 @@
 #let github = "github.com/ZorroTheRelentless"
 #let linkedin = "linkedin.com/in/zoravar-singh-kalkat-b361a4312"
 #let contacts = (
-  [#link("mailto:" + email)[#text(font: "Font Awesome 7 Free", baseline: 0.1pt, size: 7pt)[🖂] #email]],
+  [#link("mailto:" + email)[#text(
+      font: "Font Awesome 7 Free",
+      baseline: 0.1pt,
+      size: 7pt,
+    )[🖂] #email]],
   [#link("https://" + homepage + "/de/")[#text(
       font: "Font Awesome 7 Free",
       baseline: -0.35pt,
@@ -62,7 +66,7 @@
       - Traumatologie: FRI-Revisionen (Fracture-Related Infection). Schwerpunkt auf Verletzungen der unteren Extremität (z. B. Tibiakopffrakturen, distale Femurfrakturen sowie minimalinvasive Bandrekonstruktionen).
       - Septische Revisionen und Lappenplastiken: Mitwirkung bei mikrochirurgischen freien Lappen, lokalen Lappenplastiken sowie Revisionseingriffen bei kriegsbedingten Verletzungen.
     - *Zentrale Lernerfahrungen*:
-      - *Jahr 4*: Teilnahme an einem Forschnungsprojekt zur Untersuchung metabolomischer Verändrungen bei Patienten mit frakturbedingten Infektionen.
+      - *Jahr 4*: Mitarbeit an einem Forschungsprojekt zur Untersuchung metabolomischer Veränderungen bei Patienten mit frakturbedingten Infektionen. Verantwortlich für die Sammlung und Zusammenstellung der patientenrelevanten Daten für die Studie.
       - *Jahr 3*: Durchführung einfacher Eingriffe unter direkter Aufsicht des Operateurs (z. B. Gamma-Nagel), Teilnahme an der präoperativen Planung, Diskussion der theoretischen Grundlagen unterschiedlicher Therapieansätze sowie Abwägung der jeweiligen Vor- und Nachteile.
       - *Jahr 2*: Vertiefung theoretischer Kenntnisse – Frakturmanagement-Kurs, Teilnahme an Seminaren und Workshops; Anwendung meiner inzwischen deutlich verfeinerten praktischen Fähigkeiten zur Vorbereitung von Patient und OP-Tisch entsprechend den Anforderungen des Eingriffs sowie frühzeitiges steriles Einwaschen zur Reinigung der Extremität und Vorbereitung des Operationsbeginns. Ermöglichung eines früheren Auswaschens des Operateurs durch Übernahme von Naht und Wundversorgung.
       - *Jahr 1*: Orientierung im Operationssaal, Vertrautwerden mit administrativen und chirurgischen Abläufen, schrittweise Übernahme eigenständiger Aufgaben (frühes Erscheinen im OP, proaktive Unterstützung in der präoperativen Phase). Weiterentwicklung meiner Nahttechnik sowie meiner Fähigkeiten als chirurgischer Assistent.
@@ -76,9 +80,12 @@
   date: [2021 -- laufend],
   location: "",
   details: [
-    - Datenmanagement sowie Patientendokumentation gemäß Good-Clinical-Practice-(GCP)-Richtlinien im Rahmen einer Knochen-Metabolomik-Studie in Zusammenarbeit mit dem Baltic Biomaterials Center of Excellence und dem AO Research Institute Davos. _Laufend_
-    - Untersuchung der Entwicklung von COVID-Regulierungen im Verlauf der Pandemie als Teil des ECOMSIR-Forschungskollektivs. _Publikation ausstehend_
-    - Kartierung der in der medizinischen Forschung verwendeten Datenquellen anhand einer großen Kohorte medizinischer Publikationen im Rahmen des ECOMSIR-Forschungskollektivs. _Publikation ausstehend_
+    - Frühphasige Forschungsarbeiten zu den Auswirkungen der Endometriose-Behandlung auf die sexuelle Funktion. Diese
+    Arbeit steht derzeit noch unter dem Vorbehalt der ethischen Genehmigung. Meine Beteiligung konzentriert sich auf die Erstellung des Antrags auf ethische Genehmigung und
+    die Mitarbeit an der Entwicklung der lettischen und russischen Versionen des Fragebogens „Female Sexual Function Index“ (FSFI). _Laufend_
+    - Metabolomische Veränderungen bei frakturbedingten Infektionen in Zusammenarbeit mit dem Baltic Biomaterials Center of Excellence und dem AO Davos Research Institute. Ich habe einen Teil der Gewebeproben aufbereitet und mithilfe eines eigens entwickelten Algorithmus alle Patientenakten für die Studie zusammengestellt und validiert. _Laufend_
+    - Im Rahmen einer Abhandlung über die weltweiten Maßnahmen zur Bekämpfung von COVID-19 habe ich die Entwicklung eines Teils der COVID-Bestimmungen in Lettland während der Pandemie dokumentiert. _Publikation ausstehend_
+    - Im Zusammenhang mit dem Forschungskollektiv ECOMSIR habe ich die in der medizinischen Forschung verwendeten Datenquellen anhand einer ausgewählten Gruppe medizinischer Publikationen erfasst. _Publikation ausstehend_
   ],
 )
 
@@ -136,27 +143,16 @@
     fundierte klinische Grundlage erwarb und ein wachsendes Interesse an
     Traumatologie und Orthopädie entwickelte, gestützt durch sowohl akademische
     Ausbildung als auch klinische Erfahrung.
-    - Breite klinische Ausbildung im Rahmen der Rotationen in verschiedenen
-      Fachd
-      isziplinen, darunter Innere Medizin, Chirurgie, Notfallmedizin und
-      Infektiologie
-    - Ausgeprägtes Interesse an Mikrobiologie, Anatomie und Medizinischer Physik
-      (Bildgebungsverfahren, Lasermodalitäten) entwickelt
+    - Ich habe mich während des Praktikumsjahres, das die Bereiche Innere Medizin, Chirurgie, Notfallmedizin und Infektionskrankheiten umfasste, schnell an die klinische Arbeit gewöhnt.
+    - Ich habe ein starkes Interesse an Mikrobiologie, Anatomie und Sonographie am Point-of-Care entwickelt.
     - Rasche Anpassung an die akademischen und praktischen Anforderungen des
       klinischen Studienabschnitts; diese Phase war besonders prägend für meine
       berufliche Orientierung
     - Kontinuierliches ehrenamtliches Engagement vor und während der klinischen
       Studienjahre, insbesondere in:
-      - *Notaufnahme*: Praktische Erfahrung in der Versorgung von Trauma- und
-        Polytrauma-Patientinnen und -Patienten; Rotationen in der traumatologischen
-        Notfalleinheit, Reanimation (Intensiv-/Akutversorgung) und allgemeinen
-        Aufnahme.
-      - *Unfallchirurgie*: Schwerpunkt auf Knocheninfektionen,
-        Knochendistraktionsverfahren (Längenverlängerung) und traumatologischer
-        Chirurgie.
-      - *Infektionskrankenhaus*: Vertiefung der Kompetenzen in
-        Patientinnen- und Patientenkommunikation sowie im Management von
-        Infektionserkrankungen.
+      - *Notaufnahme*: Praktische Erfahrung in der Versorgung von Trauma- und Polytrauma-Patienten; Einsätze in der Unfallstation, der Reanimationsstation (Intensivmedizin) und der allgemeinen Aufnahme.
+      - *Traumaabteilung*: Fokus auf Knocheninfektionen, Wiederherstellung der Extremitätenlänge und Unfallchirurgie.
+      - *Klinik für Infektionskrankheiten*: Vertiefung der Kommunikationsfähigkeiten im stationären Bereich und des Managements von Infektionskrankheiten.
     *_Abschlussarbeit mit Auszeichnung:_* _Midterm and Longterm Outcomes after Hallux Valgus Surgery_
   ],
 )
@@ -219,10 +215,6 @@
   degrees: (("ICH GCP", "Good Clinical Practice E6(R2)"),),
   extra: [
     #set text(style: "oblique", weight: "thin")
-    Absolvierung eines Good-Clinical-Practice-(GCP)-Kurses zu ethischen
-    Grundprinzipien, regulatorischen Standards und Verantwortlichkeiten von
-    Prüfärztinnen und Prüfärzten in der klinischen Forschung mit Fokus auf
-    Teilnehmerschutz und Datenintegrität im Einklang mit internationalen
-    Richtlinien.
+    Ein Kurs, der sich mit den ethischen Grundsätzen, den regulatorischen Standards und den Pflichten von Forschern in der klinischen Forschung befasst. Der Schwerpunkt lag auf der Sicherheit der Teilnehmer und der Integrität der Studiendaten, was meine Herangehensweise an die Datenverarbeitung in meiner Forschungsarbeit geprägt hat.
   ],
 )

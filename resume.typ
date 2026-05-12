@@ -76,7 +76,7 @@
     - Designed and deployed a real-time telemetry pipeline for edge network routers using Go and Protobuf.
     - Developed high-throughput sync agents across distributed nodes using gRPC and Redis streams.
     - Created Verilog modules to validate MAC-level packet timings on custom FPGA NICs for load testing.
-  ]
+  ],
 )
 
 #exp(
@@ -88,7 +88,7 @@
     - Implemented drivers and diagnostics for a custom USB audio subsystem on a Cortex-M7 platform.
     - Built Python automation scripts for multidevice firmware upgrade pipelines and JTAG verification.
     - Validated board-level signal integrity with oscilloscope captures and SPI timing analyzers.
-  ]
+  ],
 )
 
 #exp(
@@ -100,29 +100,35 @@
     - Assisted with instructional support for algorithms, data structures, and discrete math courses.
     - Led peer tutoring sessions and created practice exams for midterm review.
   ],
-  hide: true
+  hide: true,
 )
 
 // Projects
 = Projects
 #exp(
-  title: link("https://github.com/jordan-devhub/lunar-nav-bot")[Lunar Navigation Bot (Autonomous Systems)],
+  title: link(
+    "https://github.com/jordan-devhub/lunar-nav-bot",
+  )[Lunar Navigation Bot (Autonomous Systems)],
   details: [
     - Simulated and field-tested a planetary rover using Jetson Nano, LiDAR, and YOLOv6 for rock classification.
     - Used MQTT to coordinate movement commands with a relay station over intermittent mesh networks.
     - Placed among top finalists in the #link("https://www.hackster.io/entries/space-bots-2023")[*SpaceBot 2023 Challenge*].
-  ]
+  ],
 )
 
 #exp(
-  title: link("https://github.com/jordan-devhub/speechsync")[SpeechSync Streamer (Real-Time Communication)],
+  title: link(
+    "https://github.com/jordan-devhub/speechsync",
+  )[SpeechSync Streamer (Real-Time Communication)],
   details: [
     - Created a voice chat system with on-the-fly transcription and translation via Whisper + MarianMT.
-  ]
+  ],
 )
 
 #exp(
-  title: link("https://github.com/jordan-devhub/audio-amp-kit")[Portable Audio Amplifier Kit (Hardware Design)],
+  title: link(
+    "https://github.com/jordan-devhub/audio-amp-kit",
+  )[Portable Audio Amplifier Kit (Hardware Design)],
   details: [
     - Designed a 7W audio amplifier with integrated thermal shutdown and overcurrent protection.
   ],
@@ -134,7 +140,7 @@
   title: "SpaceBot 2023 Finalist",
   details: [
     - Received for the #link("https://github.com/jordan-devhub/lunar-nav-bot")[Lunar Navigation Bot] project among 200+ submissions.
-  ]
+  ],
 )
 
 // Publications
@@ -170,39 +176,48 @@
 // Skills
 = Skills
 #skills((
-  ("Expertise", (
-    [Edge Computing],
-    [Network Protocols],
-    [Robotics Systems],
-    [FPGA Toolchains],
-    [Embedded Audio],
-    [Multilingual NLP],
-    [System Monitoring],
-    [CI/CD Automation],
-  )),
-  ("Software", (
-    [PyTorch],
-    [TensorFlow Lite],
-    [OpenCV],
-    [KiCad],
-    [Docker],
-    [Kubernetes],
-    [Zephyr RTOS],
-    [Vivado],
-    [gRPC],
-    [Git],
-    [JIRA],
-    [WireShark],
-    [Linux],
-  )),
-  ("Languages", (
-    [Python],
-    [C/C++],
-    [Rust],
-    [Bash],
-    [MATLAB],
-    [VHDL],
-    [Verilog],
-    [TypeScript],
-  )),
+  (
+    "Expertise",
+    (
+      [Edge Computing],
+      [Network Protocols],
+      [Robotics Systems],
+      [FPGA Toolchains],
+      [Embedded Audio],
+      [Multilingual NLP],
+      [System Monitoring],
+      [CI/CD Automation],
+    ),
+  ),
+  (
+    "Software",
+    (
+      [PyTorch],
+      [TensorFlow Lite],
+      [OpenCV],
+      [KiCad],
+      [Docker],
+      [Kubernetes],
+      [Zephyr RTOS],
+      [Vivado],
+      [gRPC],
+      [Git],
+      [JIRA],
+      [WireShark],
+      [Linux],
+    ),
+  ),
+  (
+    "Languages",
+    (
+      [Python],
+      [C/C++],
+      [Rust],
+      [Bash],
+      [MATLAB],
+      [VHDL],
+      [Verilog],
+      [TypeScript],
+    ),
+  ),
 ))
