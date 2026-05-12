@@ -4,7 +4,7 @@
 #let name = "Zoravar Singh Kalkat MD"
 #let homepage = "zoravar.eu"
 #let email = "contact@zoravar.eu"
-#let github = "github.com/alexm-dev"
+#let github = "github.com/ZorroTheRelentless"
 #let linkedin = "linkedin.com/in/zoravar-singh-kalkat-b361a4312"
 #let contacts = (
   [#link("mailto:" + email)[#text(font: "Font Awesome 7 Free", baseline: 0.1pt, size: 7pt)[🖂] #email]],
@@ -22,9 +22,8 @@
   justify: true,
 )[I am a medical doctor with interests that range from software development to
   engineering and woodworking. My clinical training encompasses diverse
-  specialties, including emergency medicine, traumatology, and bone infection. I
-  have actively pursued additional training in areas such as fracture management
-  and applications of AI in radiology. I also leverage my diverse interests in
+  specialties, including emergency medicine, traumatology, and bone pathology. I
+  have actively pursued additional training in areas such as fracture management, computer science, and applications of AI in radiology. I also leverage my diverse interests in
   areas such as programming to aid in my research.]]
 
 // Resume configuration
@@ -59,7 +58,7 @@
     - *Responsibilites*:
       - Assisted in the preparation of patients for surgery, including supporting
         anaesthesiologists during induction.
-      - Sterilization of the operating field.
+      - Sterilization of the surgical field.
       - Suturing surgical sites, and applying sterile wound dressing.
       - Supported procedures such as osteosynthesis, and the removal of broken and
         infected hardware.
@@ -71,7 +70,7 @@
       - Septic and flap revisions: Involvement in microsurgical free flaps, local flaps,
         and revision surgeries for war-related injuries.
     - *Key Insights*:
-      - Y4: Participated in research project investigating metabolomic changes in patients with fracture related infections. Responsible for collecting and compiling patient data relevant to the study.
+      - Y4: Began involvement in department research work. Responsible for collecting and compiling patient data using custom parsing code for research project into dracture related infection metabolomics.
       - Y3: Carried out simple procedures under direct surgeon supervision (such as
         gamma nail), participated in pre-op planning discussions. Developed a stronger understanding of the theoretical basis
         of varying treatment approaches, and weighing up the advantages and disadvantages.
@@ -94,10 +93,10 @@
   date: [2021 -- Ongoing],
   location: "",
   details: [
-    - Early-stage research investigating the impact of endometriosis treatment on women's sexual function. This work is currently pending ethics approval. My involvement is focused on preparing the ethics application and contributing to the development of Latvian and Russian versions of the Female Sexual Function Index (FSFI) questionnaire. _Ongoing_
-    - Metabolomic changes in fracture-related infections in collaboration with the Baltic Biomaterials Center of Excellence and the AO Davos Research Institute. I processed tissue samples and I used a custom program to collate patient records. _Ongoing_
-    - Documented the evolution of COVID-regulations in Latvia throughout
-      the pandemic as part of the ECOMSIR research collective. _Pending publication_
+    - Early-stage research investigating the impact of endometriosis treatment on sexual function. This work is currently pending ethics approval. My involvement is focused on preparing the ethics application and contributing to the development of Latvian and Russian versions of the Female Sexual Function Index (FSFI) questionnaire. _Ongoing_
+    - Metabolomic changes in fracture-related infections in collaboration with the Baltic Biomaterials Center of Excellence and the AO Davos Research Institute. I processed a portion of the tissue samples and I used custom code to collate and validate all patient records for the study. _Ongoing_
+    - Documented the evolution of a subset of the COVID-regulations in Latvia throughout
+      the pandemic as part of a paper about the global COVID-19 response. _Pending publication_
     - Mapped the data sources used in medical research from an assigned
       cohort of medical publications as part of the ECOMSIR research collective. _Pending publication_
   ],
@@ -162,20 +161,15 @@
     strong foundation in clinical practice and developed a growing interest in
     traumatology and orthopaedics, supported by both academic study and clinical
     experience.
-    - Gained broad exposure across multiple medical specialties during clinical
-      rotations, including internal medicine, surgery, emergency care, and infectious
-      diseases
-    - Developed strong interest in microbiology, anatomy, and medical physics (imaging
-      techniques, laser modalities)
-    - Adapted quickly to the academic demands of clinical work; found this phase
-      particularly formative in shaping professional interests
+    - Adapted quickly to clinical work during the pratical year which, included internal medicine, surgery, emergency care, and infectious diseases.
+    - Developed strong interest in microbiology, anatomy, and point of care ultrasonography.
     - Volunteered prior to and during clinical years, with consistent involvement in:
       - *Emergency Department*: Hands-on experience in trauma and polytrauma care;
         rotations in the emergency trauma unit, reanimation (critical care), and general
         admissions.
-      - *Trauma Department*: Focused on bone infections, bone lengthening procedures,
+      - *Trauma Department*: Focused on bone infections, limb length restoration,
         and trauma surgery.
-      - *Infectious Disease Hospital*: Strengthened skills in patient communication and
+      - *Infectious Disease Hospital*: Strengthened in-patient communication skills and
         infectious disease management.
     *_Thesis with Distinction:_* _Midterm and Longterm Outcomes after Hallux Valgus Surgery_
   ],
@@ -194,7 +188,7 @@
     Completed AO Trauma online course covering core fracture management principles,
     including assessment, reduction techniques, and implant use. It complemented my
     traumatology internship and allowed for in depth pre-operative planning
-    discussions with my mentor based on AO concepts.
+    discussions with my mentor based on AO principles.
   ],
 )
 
@@ -238,9 +232,8 @@
   degrees: (("ICH GCP", "Good Clinical Practice E6(R2)"),),
   extra: [
     #set text(style: "oblique", weight: "thin")
-    Completed Good Clinical Practice (GCP) course covering ethical principles,
-    regulatory standards, and investigator responsibilities in clinical research
-    focused on participant safety, and data integrity in compliance with
-    international guidelines
+    Course covering the ethical principles,
+    regulatory standards, and investigator responsibilities in clinical research.
+    Focused on participant safety, and study data integrity which has informed how I approach data processing in my research work.
   ],
 )
