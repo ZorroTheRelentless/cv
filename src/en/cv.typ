@@ -215,6 +215,18 @@
   ],
 )
 
+// ADD CS50 cert #edu( )
+#edu(
+  institution: "CS50",
+  date: [2026],
+  location: [#text(hyphenate: false)[Online]],
+  degrees: (("CS50", "CS50"),),
+  extra: [
+    #set text(style: "oblique", weight: "thin")
+    The course helped fill in the gaps in my previously self-taught programming skills. It allowed me to embark on larger, tested projects, and gave me the confidence to further integrate custom written code into my research.
+  ],
+)
+
 #edu(
   institution: "EIT Health, KTH Royal Institute of Technology, GE Healthcare",
   date: [2020],
@@ -229,8 +241,6 @@
     classification and enhancement.
   ],
 )
-
-// ADD CS50 cert #edu( )
 
 #edu(
   institution: [World Health Organization -- Global Health Training Center ],

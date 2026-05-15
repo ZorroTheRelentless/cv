@@ -1,7 +1,7 @@
 #import "@preview/clickworthy-resume:1.0.1": *
 
 // Personal Information
-#let name = "Zoravar Singh Kalkat Dr. med."
+#let name = "Zoravar Singh Kalkat"
 #let homepage = "zoravar.eu"
 #let email = "contact@zoravar.eu"
 #let github = "github.com/ZorroTheRelentless"
