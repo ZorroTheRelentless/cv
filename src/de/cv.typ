@@ -73,7 +73,7 @@
   ],
 )
 //#line(length: 100%, stroke: (thickness: 0.5pt, paint: gray))
-
+#pagebreak()
 #exp(
   title: "Wissenschaftlicher Mitarbeiter",
   organization: "Verschiedene Initiativen",
@@ -88,8 +88,6 @@
     - Im Zusammenhang mit dem Forschungskollektiv ECOMSIR habe ich die in der medizinischen Forschung verwendeten Datenquellen anhand einer ausgewählten Gruppe medizinischer Publikationen erfasst. _Publikation ausstehend_
   ],
 )
-
-#pagebreak()
 
 #exp(
   title: "Event-Sanitäter",
@@ -216,7 +214,7 @@
     - Reproduzierbare hermetische Builds mit Nix
   ],
 )
-
+#pagebreak()
 #edu(
   institution: "EIT Health, KTH Royal Institute of Technology, GE Healthcare",
   date: [2020],

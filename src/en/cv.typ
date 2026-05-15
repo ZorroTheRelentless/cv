@@ -109,7 +109,7 @@
 #exp(
   title: "Event Medic",
   organization: "Various Organizations",
-  date: [2022 -- Ongoing],
+  date: [2022 -- 2026],
   location: "",
   details: [
     - Provide first aid for at least 40 events to both adults and children, at a
@@ -151,6 +151,7 @@
 //)
 
 // Education
+\
 = Education
 #edu(
   institution: "Rīga Stradiņš University",
@@ -214,7 +215,7 @@
     access to posterio-lateral corner injuries.
   ],
 )
-
+#pagebreak()
 #edu(
   institution: "Harvard University (HarvardX)",
   date: [2026],
