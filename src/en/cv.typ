@@ -215,15 +215,25 @@
   ],
 )
 
-// ADD CS50 cert #edu( )
 #edu(
-  institution: "CS50",
+  institution: "Harvard University (HarvardX)",
   date: [2026],
-  location: [#text(hyphenate: false)[Online]],
-  degrees: (("CS50", "CS50"),),
+  location: [#box(width: 10cm)[Online]],
+  degrees: (
+    ("CS50x", "Introduction to Computer Science"),
+  ),
   extra: [
     #set text(style: "oblique", weight: "thin")
-    The course helped fill in the gaps in my previously self-taught programming skills. It allowed me to embark on larger, tested projects, and gave me the confidence to further integrate custom written code into my research.
+    Provided a foundational understanding of computer science from bare-metal C to high-level web services. Consolidated self-taught skills into a strong, cohesive base and built confidence in integrating code into my research.
+
+    Final Project: A #link("https://github.com/zorrotherelentless/shumai")[secure SSL certificate management system] designed with security-by-design throughout. Built on top of my secrets package #link("https://crates.io/crates/memfd-secret")[`memfd-secret`], which uses the Linux `memfd_secret` syscall to block secret access even at the kernel level.
+
+    Hands-on development experience in: C, Python, SQL, Rust, and HTML/CSS/JavaScript.
+
+    Also covered best practices including:
+    - Continuous Integration and Continuous Deployment
+    - Version Control (via Git)
+    - Reproducible Hermetic Builds via Nix
   ],
 )
 

@@ -54,7 +54,7 @@
   date: [2022 -- 2026],
   location: "Rīga, Lettland",
   details: [
-    Freiwillige Tätigkeit unter der Aufsicht von Dr. Igors Terjajevs _(MD und AO Faculty Representative)_
+    Freiwillige Tätigkeit unter der Aufsicht von Dr. Igors Terjajevs _(Arzt und AO Faculty Representative)_
     #set list(marker: ([#"   "], [•], [‣]))
     - *Aufgaben*:
       - Assistenz bei der Vorbereitung von Patientinnen und Patienten auf operative Eingriffe, einschließlich Unterstützung der Anästhesie während der Narkoseeinleitung.
@@ -189,6 +189,31 @@
     (MD, PhD) stellte seinen revidierten 3-Säulen-Ansatz für
     Tibiakopffrakturen vor, ermöglicht durch das AO-zertifizierte VA-LCP-Plattensystem,
     das einen erweiterten Zugang zu posterolateralen Verletzungen erlaubt.
+  ],
+)
+
+#edu(
+  institution: "Harvard University (HarvardX)",
+  date: [2026],
+  location: [#box(width: 10cm)[Online]],
+  degrees: (
+    ("CS50x", "Introduction to Computer Science"),
+  ),
+  extra: [
+    #set text(style: "oblique", weight: "thin")
+    Vermittelte ein grundlegendes Verständnis der Informatik, von bare-metal C bis hin zu High-Level-Webdiensten. Konsolidierte autodidaktisch erworbene Kenntnisse zu einer soliden Grundlage und stärkte das Vertrauen in die Integration von Code in meine Forschung.
+
+    Abschlussprojekt: Ein #link("https://github.com/zorrotherelentless/shumai")[sicheres SSL-Zertifikatsverwaltungssystem], das durchgängig nach dem Security-by-Design-Prinzip entwickelt wurde. Aufgebaut auf meinem Secrets-Paket #link("https://crates.io/crates/memfd-secret")[`memfd-secret`], das den Linux-Syscall `memfd_secret` nutzt, um den Zugriff auf Geheimnisse selbst auf Kernel-Ebene zu unterbinden.
+
+    Praktische Entwicklungserfahrung in: C, Python, SQL, Rust und HTML/CSS/JavaScript.
+
+    Behandelte Best Practices umfassen:
+
+    - Continuous Integration und Continuous Deployment
+
+    - Versionskontrolle (mit Git)
+
+    - Reproduzierbare hermetische Builds mit Nix
   ],
 )
 
