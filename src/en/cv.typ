@@ -28,7 +28,7 @@
   engineering and woodworking. My clinical training encompasses diverse
   specialties, including emergency medicine, traumatology, and bone pathology. I
   have actively pursued additional training in areas such as fracture management, computer science, and applications of AI in radiology. I also leverage my diverse interests in
-  areas such as programming to aid in my research.]]
+  areas such as programming to aid in my research. I speak English and Punjabi at a native level, along with Swedish and German at an upper-intermediate level.]]
 
 // Resume configuration
 #let theme = rgb("#26428b")
@@ -59,7 +59,7 @@
   details: [
     Voluntary position under the supervision of Dr. Igors Terjajevs _(MD and AO Faculty Representative)_
     #set list(marker: ([#"   "], [•], [‣]))
-    - *Responsibilites*:
+    - *Responsibilities*:
       - Assisted in the preparation of patients for surgery, including supporting
         anaesthesiologists during induction.
       - Sterilization of the surgical field.
@@ -74,15 +74,15 @@
       - Septic and flap revisions: Involvement in microsurgical free flaps, local flaps,
         and revision surgeries for war-related injuries.
     - *Key Insights*:
-      - Y4: Began involvement in department research work. Responsible for collecting and compiling patient data using custom parsing code for research project into dracture related infection metabolomics.
+      - Y4: Began involvement in department research work. Responsible for collecting and compiling patient data using custom parsing code for a research project into fracture related infection metabolomics.
       - Y3: Carried out simple procedures under direct surgeon supervision (such as
         gamma nail), participated in pre-op planning discussions. Developed a stronger understanding of the theoretical basis
         of varying treatment approaches, and weighing up the advantages and disadvantages.
       - Y2: Learning more theory - fracture management course, attending seminars and
-        workshops, using my now fairly refined skillset to prep the patient and
+        workshops, using my now fairly refined skill set to prep the patient and
         operating table to the requirements of the operation, and scrubbing in early to
         clean the limb and prepare for the start of the surgery. Allowing the surgeon to
-        scrub out earlier and dealing with suturing and wound dressing.
+        scrub out earlier and deal with suturing and wound dressing.
       - Y1: Navigating the operating room, familiarizing myself with the administrative
         and surgical process, allowing for some independence (getting to ORs
         early/proactively helping in the pre-op). Developing my suturing skills,
@@ -115,12 +115,14 @@
     - Provide first aid for at least 40 events to both adults and children, at a
       diverse range of events including concerts, film sets, motocross, horse riding,
       and sports leagues.
-    - Identified and secured fractures of the elbow _(childrens basketball)_, scapula _(motocross)_,
+    - Identified and secured fractures of the elbow _(children's basketball)_, scapula _(motocross)_,
       and knee _(volleyball)_.
     - Managed heatstroke incidents for the set of Austrian production _Sisi_ in Riga
       Old town as sole medic.
     - Sole medic for the sold out Kamasi Washington concert at the Rīga Palladium,
       Pink Noise Festival of 2025.
+    - European Volleyball Confederation Riga Youth Championships 2026.
+    - European Bridge League Championship (Riga) - sole medic for high profile multi-week event with thousands of attendees and dozens of staff.
   ],
 )
 //#line(length: 100%, stroke: (thickness: 0.5pt, paint: gray))
@@ -182,6 +184,26 @@
 #line(length: 100%, stroke: (thickness: 0.5pt, paint: gray))
 
 #edu(
+  institution: "Goethe Institute",
+  date: [2026],
+  location: [Rīga,~Latvia],
+  degrees: (
+    ("German", "B2 Exam"),
+  ),
+  extra: [
+    #set text(style: "oblique", weight: "thin")
+    Completed the German B2 language exam with a score of 100% in speaking.
+    #columns(2, gutter: -200pt)[
+      - Reading: 90/100
+      - Listening: 90/100
+      #colbreak()
+      - Writing: 81/100
+      - Speaking: 100/100
+    ]
+  ],
+)
+
+#edu(
   institution: "AO Foundation",
   date: [2023],
   location: [#text(hyphenate: false)[Online]],
@@ -196,7 +218,7 @@
     discussions with my mentor based on AO principles.
   ],
 )
-
+#pagebreak()
 #edu(
   institution: "AO Foundation",
   date: [2023],
@@ -215,7 +237,7 @@
     access to posterio-lateral corner injuries.
   ],
 )
-#pagebreak()
+
 #edu(
   institution: "Harvard University (HarvardX)",
   date: [2026],
@@ -248,7 +270,7 @@
     Completed AI training program by focused on applying AI in medical imaging;
     highlighting the strengths and limitations underlying the technology. The course
     provided hands-on experience with AI classifiers, regression analysis,
-    overfitting risks, and real-world radiology applications such as image
+    over-fitting risks, and real-world radiology applications such as image
     classification and enhancement.
   ],
 )

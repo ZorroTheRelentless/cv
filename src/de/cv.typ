@@ -25,7 +25,7 @@
 // Professional Summary
 #let summary = [#par(
     justify: true,
-  )[Ich bin Arzt und interessiere mich für Themen wie Softwareentwicklung, Ingenieurwesen und Holzbearbeitung. Meine klinische Ausbildung umfasst verschiedene Fachgebiete, darunter Notfallmedizin, Traumatologie und Knocheninfektionen. Ich habe mich aktiv um zusätzliche Fortbildungen in Bereichen wie Frakturmanagement und Anwendungen künstlicher Intelligenz in der Radiologie bemüht. Außerdem nutze ich meine vielfältigen Interessen in Bereichen wie Programmierung, um meine Forschung voranzutreiben.]
+  )[Ich bin Arzt mit Mebeko-Anerkennung und interessiere mich für Themen wie Softwareentwicklung, Ingenieurwesen und Holzbearbeitung. Meine klinische Ausbildung umfasst verschiedene Fachgebiete, darunter Notfallmedizin, Traumatologie und Knocheninfektionen. Ich habe mich aktiv um zusätzliche Fortbildungen in Bereichen wie Frakturmanagement und Anwendungen künstlicher Intelligenz in der Radiologie bemüht. Außerdem nutze ich meine vielfältigen Interessen in Bereichen wie Programmierung, um meine Forschung voranzutreiben. Ich spreche Englisch und Punjabi auf muttersprachlichem Niveau sowie Deutsch und Schwedisch auf fortgeschrittenem Niveau.]
 ]
 // Resume configuration
 #let theme = rgb("#26428b")
@@ -99,6 +99,8 @@
     - Erkennen und Erstversorgung von Frakturen des Ellenbogens _(Kinderbasketball)_, der Scapula _(Motocross)_ sowie des Knies _(Volleyball)_.
     - Eigenverantwortliche Versorgung mehrerer Hitzschlag-Fälle am Set der österreichischen Produktion _Sisi_ in der Altstadt von Riga als alleiniger Sanitäter.
     - Alleiniger Sanitäter beim ausverkauften Konzert von Kamasi Washington im Rīga Palladium sowie beim Pink Noise Festival 2025.
+    - Jugend-Europameisterschaften 2026 der Europäischen Volleyball-Konföderation in Rīga.
+    - Meisterschaft der European Bridge League 2026 in Rīga – alleiniger medizinischer Betreuer bei einer hochkarätigen, mehrwöchigen Veranstaltung mit Tausenden von Teilnehmern und Dutzenden von Mitarbeitern.
   ],
 )
 //#line(length: 100%, stroke: (thickness: 0.5pt, paint: gray))
@@ -145,7 +147,7 @@
     - Ich habe ein starkes Interesse an Mikrobiologie, Anatomie und Sonographie am Point-of-Care entwickelt.
     - Rasche Anpassung an die akademischen und praktischen Anforderungen des
       klinischen Studienabschnitts; diese Phase war besonders prägend für meine
-      berufliche Orientierung
+      berufliche Orientierung.
     - Kontinuierliches ehrenamtliches Engagement vor und während der klinischen
       Studienjahre, insbesondere in:
       - *Notaufnahme*: Praktische Erfahrung in der Versorgung von Trauma- und Polytrauma-Patienten; Einsätze in der Unfallstation, der Reanimationsstation (Intensivmedizin) und der allgemeinen Aufnahme.
@@ -155,7 +157,25 @@
   ],
 )
 #line(length: 100%, stroke: (thickness: 0.5pt, paint: gray))
-
+#edu(
+  institution: "Goethe Institute",
+  date: [2026],
+  location: [Rīga,~Latvia],
+  degrees: (
+    ("German", "B2 Prüfung"),
+  ),
+  extra: [
+    #set text(style: "oblique", weight: "thin")
+    Abschluss der Deutschprüfung der Stufe B2 mit einer Punktzahl von 100 % im Bereich „Sprechen“.
+    #columns(2, gutter: -200pt)[
+      - Lesen: 90/100
+      - Hören: 90/100
+      #colbreak()
+      - Schreiben: 81/100
+      - Sprechen: 100/100
+    ]
+  ],
+)
 #edu(
   institution: "AO Foundation",
   date: [2023],
@@ -182,11 +202,7 @@
   ),
   extra: [
     #set text(style: "oblique", weight: "thin")
-    Diskussion klinischer Leitlinien zu kniegelenksnahen Frakturen sowie zum
-    Verständnis des Knies als funktionelle Einheit. Gastdozent Dr. Harm Hoekstra
-    (MD, PhD) stellte seinen revidierten 3-Säulen-Ansatz für
-    Tibiakopffrakturen vor, ermöglicht durch das AO-zertifizierte VA-LCP-Plattensystem,
-    das einen erweiterten Zugang zu posterolateralen Verletzungen erlaubt.
+    Diskussion klinischer Leitlinien zu kniegelenksnahen Frakturen sowie zum Verständnis des Knies als funktionelle Einheit. Gastdozent Dr. Harm Hoekstra (MD, PhD) stellte seinen revidierten 3-Säulen-Ansatz für Tibiakopffrakturen vor, ermöglicht durch das AO-zertifizierte VA-LCP-Plattensystem, das einen erweiterten Zugang zu posterolateralen Verletzungen erlaubt.
   ],
 )
 
@@ -201,16 +217,11 @@
     #set text(style: "oblique", weight: "thin")
     Vermittelte ein grundlegendes Verständnis der Informatik, von bare-metal C bis hin zu High-Level-Webdiensten. Konsolidierte autodidaktisch erworbene Kenntnisse zu einer soliden Grundlage und stärkte das Vertrauen in die Integration von Code in meine Forschung.
 
-    Abschlussprojekt: Ein #link("https://github.com/zorrotherelentless/shumai")[sicheres SSL-Zertifikatsverwaltungssystem], das durchgängig nach dem Security-by-Design-Prinzip entwickelt wurde. Aufgebaut auf meinem Secrets-Paket #link("https://crates.io/crates/memfd-secret")[`memfd-secret`], das den Linux-Syscall `memfd_secret` nutzt, um den Zugriff auf Geheimnisse selbst auf Kernel-Ebene zu unterbinden.
-
-    Praktische Entwicklungserfahrung in: C, Python, SQL, Rust und HTML/CSS/JavaScript.
+    Abschlussprojekt: Ein #link("https://github.com/zorrotherelentless/shumai")[sicheres SSL-Zertifikatsverwaltungssystem], das durchgängig nach dem Security-by-Design-Prinzip entwickelt wurde. Aufgebaut auf meinem Secrets-Paket #link("https://crates.io/crates/memfd-secret")[`memfd-secret`], das den Linux-Syscall `memfd_secret` nutzt, um den Zugriff auf Geheimnisse selbst auf Kernel-Ebene zu unterbinden. Praktische Entwicklungserfahrung in: C, Python, SQL, Rust und HTML/CSS/JavaScript.
 
     Behandelte Best Practices umfassen:
-
     - Continuous Integration und Continuous Deployment
-
     - Versionskontrolle (mit Git)
-
     - Reproduzierbare hermetische Builds mit Nix
   ],
 )
