@@ -28,7 +28,7 @@
   engineering and woodworking. My clinical training encompasses diverse
   specialties, including emergency medicine, traumatology, and bone pathology. I
   have actively pursued additional training in areas such as fracture management, computer science, and applications of AI in radiology. I also leverage my diverse interests in
-  areas such as programming to aid in my research. I speak English and Punjabi at a native level, along with Swedish and German at an upper-intermediate level.]]
+  areas such as programming to aid in my research.]
 
 // Resume configuration
 #let theme = rgb("#26428b")
@@ -36,6 +36,58 @@
 #let fontSize = 11pt
 #let lang = "en"
 #let margin = (top: 1cm, bottom: 1cm, left: 1cm, right: 1cm)
+
+#let tag-chip(label) = box(
+  inset: (x: 4pt, y: 1.5pt),
+  outset: (y: 0.5pt),
+  fill: luma(245),
+  stroke: 0.35pt + luma(185),
+  radius: 4pt,
+)[#text(size: 8.5pt)[#label]]
+
+#let tag-list(items) = {
+  set par(justify: false)
+
+  for item in items {
+    tag-chip(item)
+    h(0.2em)
+  }
+
+  linebreak()
+  v(0.15em)
+}
+
+#let tag-items(items) = {
+  for item in items {
+    tag-chip(item)
+    h(0.2em)
+  }
+}
+
+#let skills-table(rows) = {
+  set par(justify: false)
+
+  grid(
+    columns: (1fr,),
+    row-gutter: 0.5em,
+    ..rows
+      .map(row => (
+        [
+          #text(size: 9.5pt, weight: "bold")[#row.at(0)]
+          #linebreak()
+          #tag-items(row.at(1))
+          #{
+            if row.len() > 2 {
+              linebreak()
+              text(size: 8.5pt, style: "italic")[#row.at(2)]
+            }
+          }
+          #v(0.5em)
+        ],
+      ))
+      .flatten(),
+  )
+}
 
 #show: resume.with(
   author: name,
@@ -106,7 +158,6 @@
       cohort of medical publications as part of the ECOMSIR research collective. _Pending publication_
   ],
 )
-#pagebreak()
 #exp(
   title: "Event Medic",
   organization: "Various Organizations",
@@ -286,3 +337,16 @@
     Course covering the ethical principles, regulatory standards, and investigator responsibilities in clinical research. Focused on participant safety, and study data integrity which has informed how I approach data processing in my research work.
   ],
 )
+
+= Skills
+
+#skills-table((
+  (
+    "Languages",
+    ("English (Native)", "German (CEFR B2)", "Swedish (SSA 3)", "Punjabi (Native)", "Latvian (Intermediate)"),
+  ),
+  (
+    "Programming",
+    ("Rust", "Python", "C", "Nix", "Data Engineering", "CI/CD"),
+  ),
+))

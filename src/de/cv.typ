@@ -25,7 +25,7 @@
 // Professional Summary
 #let summary = [#par(
     justify: true,
-  )[Ich bin Arzt mit Mebeko-Anerkennung und interessiere mich für Themen wie Softwareentwicklung, Ingenieurwesen und Holzbearbeitung. Meine klinische Ausbildung umfasst verschiedene Fachgebiete, darunter Notfallmedizin, Traumatologie und Knocheninfektionen. Ich habe mich aktiv um zusätzliche Fortbildungen in Bereichen wie Frakturmanagement und Anwendungen künstlicher Intelligenz in der Radiologie bemüht. Außerdem nutze ich meine vielfältigen Interessen in Bereichen wie Programmierung, um meine Forschung voranzutreiben. Ich spreche Englisch und Punjabi auf muttersprachlichem Niveau sowie Deutsch und Schwedisch auf fortgeschrittenem Niveau.]
+  )[Ich bin Arzt mit Mebeko-Anerkennung und interessiere mich für Themen wie Softwareentwicklung, Ingenieurwesen und Holzbearbeitung. Meine klinische Ausbildung umfasst verschiedene Fachgebiete, darunter Notfallmedizin, Traumatologie und Knocheninfektionen. Ich habe mich aktiv um zusätzliche Fortbildungen in Bereichen wie Frakturmanagement und Anwendungen künstlicher Intelligenz in der Radiologie bemüht. Außerdem nutze ich meine vielfältigen Interessen in Bereichen wie Programmierung, um meine Forschung voranzutreiben.
 ]
 // Resume configuration
 #let theme = rgb("#26428b")
@@ -33,6 +33,58 @@
 #let fontSize = 11pt
 #let lang = "en"
 #let margin = (top: 1cm, bottom: 1cm, left: 1cm, right: 1cm)
+
+#let tag-chip(label) = box(
+  inset: (x: 4pt, y: 1.5pt),
+  outset: (y: 0.5pt),
+  fill: luma(245),
+  stroke: 0.35pt + luma(185),
+  radius: 4pt,
+)[#text(size: 8.5pt)[#label]]
+
+#let tag-list(items) = {
+  set par(justify: false)
+
+  for item in items {
+    tag-chip(item)
+    h(0.2em)
+  }
+
+  linebreak()
+  v(0.15em)
+}
+
+#let tag-items(items) = {
+  for item in items {
+    tag-chip(item)
+    h(0.2em)
+  }
+}
+
+#let skills-table(rows) = {
+  set par(justify: false)
+
+  grid(
+    columns: (1fr,),
+    row-gutter: 0.5em,
+    ..rows
+      .map(row => (
+        [
+          #text(size: 9.5pt, weight: "bold")[#row.at(0)]
+          #linebreak()
+          #tag-items(row.at(1))
+          #{
+            if row.len() > 2 {
+              linebreak()
+              text(size: 8.5pt, style: "italic")[#row.at(2)]
+            }
+          }
+          #v(0.5em)
+        ],
+      ))
+      .flatten(),
+  )
+}
 
 #show: resume.with(
   author: name,
@@ -253,3 +305,21 @@
     Ein Kurs, der sich mit den ethischen Grundsätzen, den regulatorischen Standards und den Pflichten von Forschern in der klinischen Forschung befasst. Der Schwerpunkt lag auf der Sicherheit der Teilnehmer und der Integrität der Studiendaten, was meine Herangehensweise an die Datenverarbeitung in meiner Forschungsarbeit geprägt hat.
   ],
 )
+
+= Fähigkeiten
+#skills-table((
+  (
+    "Sprachen",
+    (
+      "Englisch (Muttersprache)",
+      "Deutsch (GER B2)",
+      "Schwedisch (SSA 3)",
+      "Punjabi (Muttersprache)",
+      "Lettisch (Mittelstufe)",
+    ),
+  ),
+  (
+    "Programmierung",
+    ("Rust", "Python", "C", "Nix", "Data Engineering", "CI/CD"),
+  ),
+))
