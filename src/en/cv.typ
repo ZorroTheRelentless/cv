@@ -23,13 +23,13 @@
 
 // Professional Summary
 #let summary = [#par(
-  justify: true,
-)[I am a medical doctor with interests that range from software development to
-  engineering and woodworking. My clinical training encompasses diverse
-  specialties, including emergency medicine, traumatology, and bone pathology. I
-  have actively pursued additional training in areas such as fracture management, computer science, and applications of AI in radiology. I also leverage my diverse interests in
-  areas such as programming to aid in my research.]
-
+    justify: true,
+  )[I am a medical doctor with interests that range from software development to
+    engineering and woodworking. My clinical training encompasses diverse
+    specialties, including emergency medicine, traumatology, and bone pathology. I
+    have actively pursued additional training in areas such as fracture management, computer science, and applications of AI in radiology. I also leverage my diverse interests in
+    areas such as programming to aid in my research.]
+]
 // Resume configuration
 #let theme = rgb("#26428b")
 #let font = "New Computer Modern"
