@@ -63,10 +63,10 @@
       - Assistenz bei Eingriffen wie Osteosynthesen sowie bei der Entfernung von gebrochenem und infiziertem Osteosynthesematerial.
       - Assistenz bei freien und lokalen Lappenplastiken sowie bei Autodermoplastiken.
     - *Operative Disziplinen*:
-      - Traumatologie: FRI-Revisionen (Fracture-Related Infection). Schwerpunkt auf Verletzungen der unteren Extremität (z. B. Tibiakopffrakturen, distale Femurfrakturen sowie minimalinvasive Bandrekonstruktionen).
+      - Traumatologie: Frakturassoziierten Infektionen: Schwerpunkt auf Verletzungen der unteren Extremität (z. B. Tibiakopffrakturen, distale Femurfrakturen sowie minimalinvasive Bandrekonstruktionen).
       - Septische Revisionen und Lappenplastiken: Mitwirkung bei mikrochirurgischen freien Lappen, lokalen Lappenplastiken sowie Revisionseingriffen bei kriegsbedingten Verletzungen.
     - *Zentrale Lernerfahrungen*:
-      - *Jahr 4*: Mitarbeit an einem Forschungsprojekt zur Untersuchung metabolomischer Veränderungen bei Patienten mit frakturbedingten Infektionen. Verantwortlich für die Sammlung und Zusammenstellung der patientenrelevanten Daten für die Studie.
+      - *Jahr 4*: Mitarbeit an einem Forschungsprojekt zur Untersuchung metabolomischer Veränderungen bei Patienten mit frakturassoziierten Infektionen. Verantwortlich für die Sammlung und Zusammenstellung der patientenrelevanten Daten für die Studie.
       - *Jahr 3*: Durchführung einfacher Eingriffe unter direkter Aufsicht des Operateurs (z. B. Gamma-Nagel), Teilnahme an der präoperativen Planung, Diskussion der theoretischen Grundlagen unterschiedlicher Therapieansätze sowie Abwägung der jeweiligen Vor- und Nachteile.
       - *Jahr 2*: Vertiefung theoretischer Kenntnisse – Frakturmanagement-Kurs, Teilnahme an Seminaren und Workshops; Anwendung meiner inzwischen deutlich verfeinerten praktischen Fähigkeiten zur Vorbereitung von Patient und OP-Tisch entsprechend den Anforderungen des Eingriffs sowie frühzeitiges steriles Einwaschen zur Reinigung der Extremität und Vorbereitung des Operationsbeginns. Ermöglichung eines früheren Auswaschens des Operateurs durch Übernahme von Naht und Wundversorgung.
       - *Jahr 1*: Orientierung im Operationssaal, Vertrautwerden mit administrativen und chirurgischen Abläufen, schrittweise Übernahme eigenständiger Aufgaben (frühes Erscheinen im OP, proaktive Unterstützung in der präoperativen Phase). Weiterentwicklung meiner Nahttechnik sowie meiner Fähigkeiten als chirurgischer Assistent.
@@ -82,8 +82,9 @@
   details: [
     - Frühphasige Forschungsarbeiten zu den Auswirkungen der Endometriose-Behandlung auf die sexuelle Funktion. Diese
     Arbeit steht derzeit noch unter dem Vorbehalt der ethischen Genehmigung. Meine Beteiligung konzentriert sich auf die Erstellung des Antrags auf ethische Genehmigung und
-    die Mitarbeit an der Entwicklung der lettischen und russischen Versionen des Fragebogens „Female Sexual Function Index“ (FSFI). _Laufend_
-    - Metabolomische Veränderungen bei frakturbedingten Infektionen in Zusammenarbeit mit dem Baltic Biomaterials Center of Excellence und dem AO Davos Research Institute. Ich habe einen Teil der Gewebeproben aufbereitet und mithilfe eines eigens entwickelten Algorithmus alle Patientenakten für die Studie zusammengestellt und validiert. _Laufend_
+    die Mitarbeit an der Entwicklung der lettischen und russischen Versionen des Fragebogens „modified Female Sexual Function Index“ (mFSFI). _Laufend_
+    - Metabolomische Veränderungen bei frakturassoziierten Infektionen in Zusammenarbeit mit dem Baltic Biomaterials Center of Excellence und dem AO Davos Research Institute. Ich habe einen Teil der Gewebeproben aufbereitet und mithilfe eines eigens entwickelten Algorithmus alle Patientenakten für die Studie zusammengestellt und validiert. _Laufend_
+    - Zusammenhang zwischen Umgebungsluftverschmutzung und Temperatur mit akuten Krankenhauseinweisungen durch Exazerbation von Herz-Kreislauf-Erkrankungen. Zuständig für Datenanalyse und -visualisierung. _Laufend_
     - Im Rahmen einer Abhandlung über die weltweiten Maßnahmen zur Bekämpfung von COVID-19 habe ich die Entwicklung eines Teils der COVID-Bestimmungen in Lettland während der Pandemie dokumentiert. _Publikation ausstehend_
     - Im Zusammenhang mit dem Forschungskollektiv ECOMSIR habe ich die in der medizinischen Forschung verwendeten Datenquellen anhand einer ausgewählten Gruppe medizinischer Publikationen erfasst. _Publikation ausstehend_
   ],

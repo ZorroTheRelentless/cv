@@ -97,8 +97,9 @@
   date: [2021 -- Ongoing],
   location: "",
   details: [
-    - Early-stage research investigating the impact of endometriosis treatment on sexual function. This work is currently pending ethics approval. My involvement is focused on preparing the ethics application and contributing to the development of Latvian and Russian versions of the Female Sexual Function Index (FSFI) questionnaire. _Ongoing_
+    - Early-stage research investigating the impact of endometriosis treatment on sexual function. This work is currently pending ethics approval. My involvement is focused on preparing the ethics application and contributing to the development of Latvian, English and Russian versions of the Female Sexual Function Index (FSFI) questionnaire. _Ongoing_
     - Metabolomic changes in fracture-related infections in collaboration with the Baltic Biomaterials Center of Excellence and the AO Davos Research Institute. I processed a portion of the tissue samples and I used custom code to collate and validate all patient records for the study. _Ongoing_
+    - Relationship between Ambient Air Pollution and Temperature with Acute Hospitalization due to Exacerbation of Cardiovascular Diseases. Will be handling data analysis and visualization. _Ongoing_
     - Documented the evolution of a subset of the COVID-regulations in Latvia throughout
       the pandemic as part of a paper about the global COVID-19 response. _Pending publication_
     - Mapped the data sources used in medical research from an assigned
