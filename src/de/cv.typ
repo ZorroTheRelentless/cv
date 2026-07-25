@@ -25,7 +25,7 @@
 // Professional Summary
 #let summary = [#par(
     justify: true,
-  )[Ich bin Arzt mit Mebeko-Anerkennung und interessiere mich für Themen wie Softwareentwicklung, Ingenieurwesen und Holzbearbeitung. Meine klinische Ausbildung umfasst verschiedene Fachgebiete, darunter Notfallmedizin, Traumatologie und Knocheninfektionen. Ich habe mich aktiv um zusätzliche Fortbildungen in Bereichen wie Frakturmanagement und Anwendungen künstlicher Intelligenz in der Radiologie bemüht. Außerdem nutze ich meine vielfältigen Interessen in Bereichen wie Programmierung, um meine Forschung voranzutreiben.]
+  )[Ich bin schwedischer Staatsangehöriger und Arzt mit MEBEKO-Anerkennung und interessiere mich für Themen wie Softwareentwicklung, Ingenieurwesen und Holzbearbeitung. Meine klinische Ausbildung umfasst verschiedene Fachgebiete, darunter Notfallmedizin, Traumatologie und Knocheninfektionen. Ich habe mich aktiv um zusätzliche Fortbildungen in Bereichen wie Frakturmanagement und Anwendungen künstlicher Intelligenz in der Radiologie bemüht. Außerdem nutze ich meine vielfältigen Interessen in Bereichen wie Programmierung, um meine Forschung voranzutreiben.]
 ]
 // Resume configuration
 #let theme = rgb("#26428b")
@@ -86,11 +86,94 @@
   )
 }
 
-#show: resume.with(
+#let resume-with-photo(
+  author: "",
+  location: "",
+  contacts: (),
+  summary: "",
+  photo: none,
+  theme-color: rgb("#26428b"),
+  font: "New Computer Modern",
+  font-size: 11pt,
+  lang: "en",
+  margin: (
+    top: 1cm,
+    bottom: 0cm,
+    left: 1cm,
+    right: 1cm,
+  ),
+  body,
+) = {
+  set document(author: author, title: author)
+
+  set text(
+    font: font,
+    size: font-size,
+    lang: lang,
+    ligatures: false,
+  )
+
+  set page(margin: margin)
+
+  show link: set text(fill: rgb("#0645AD"))
+  show heading: set text(fill: rgb(theme-color))
+  show heading: it => [
+    #pad(top: -0.3em, bottom: -0.8em, [#smallcaps(it.body)])
+    #line(length: 100%, stroke: 1pt)
+  ]
+
+  align(center)[
+    #block(text(weight: 700, 2.5em, [#smallcaps(author)]))
+  ]
+
+        [#h(17em) #contacts.join("   ")]
+  grid(
+    columns: if photo == none { (1fr,) } else { (3cm, 1fr) },
+    column-gutter: 0.6cm,
+    align: (center, top),
+    if photo != none {
+      v(-0.35em)
+      align(right)[#photo]
+    },
+    [
+      #{
+        if location != "" {
+          align(center)[
+            #smallcaps[#location]
+          ]
+        }
+      }
+
+      #{
+        if summary != "" {
+          pad(
+            top: 0.25em,
+            align(center)[
+              #summary
+            ],
+          )
+        }
+      }
+    ],
+  )
+
+  set par(justify: true)
+
+  body
+}
+
+#show: resume-with-photo.with(
   author: name,
   //location: location,
   contacts: contacts,
   summary: summary,
+  photo: box(
+    clip: true,
+    radius: 1.625cm,
+    width: 3.25cm,
+    height: 3.25cm,
+    image("assets/photo.jpeg", height: 3.75cm),
+  ),
   theme-color: theme,
   font: font,
   font-size: fontSize,
@@ -132,9 +215,7 @@
   date: [2021 -- laufend],
   location: "",
   details: [
-    - Frühphasige Forschungsarbeiten zu den Auswirkungen der Endometriose-Behandlung auf die sexuelle Funktion. Diese
-    Arbeit steht derzeit noch unter dem Vorbehalt der ethischen Genehmigung. Meine Beteiligung konzentriert sich auf die Erstellung des Antrags auf ethische Genehmigung und
-    die Mitarbeit an der Entwicklung der lettischen und russischen Versionen des Fragebogens „modified Female Sexual Function Index“ (mFSFI). _Laufend_
+    - Frühphasige Forschungsarbeiten zu den Auswirkungen der Endometriose-Behandlung auf die sexuelle Funktion. Meine Beteiligung konzentriert sich auf die Erstellung des Antrags auf ethische Genehmigung und die Mitarbeit an der Entwicklung der lettischen und russischen Versionen des Fragebogens "modified Female Sexual Function Index". _Laufend_
     - Metabolomische Veränderungen bei frakturassoziierten Infektionen in Zusammenarbeit mit dem Baltic Biomaterials Center of Excellence und dem AO Davos Research Institute. Ich habe einen Teil der Gewebeproben aufbereitet und mithilfe eines eigens entwickelten Algorithmus alle Patientenakten für die Studie zusammengestellt und validiert. _Laufend_
     - Zusammenhang zwischen Umgebungsluftverschmutzung und Temperatur mit akuten Krankenhauseinweisungen durch Exazerbation von Herz-Kreislauf-Erkrankungen. Zuständig für Datenanalyse und -visualisierung. _Laufend_
     - Im Rahmen einer Abhandlung über die weltweiten Maßnahmen zur Bekämpfung von COVID-19 habe ich die Entwicklung eines Teils der COVID-Bestimmungen in Lettland während der Pandemie dokumentiert. _Publikation ausstehend_

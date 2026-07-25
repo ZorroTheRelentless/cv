@@ -89,11 +89,94 @@
   )
 }
 
-#show: resume.with(
+#let resume-with-photo(
+  author: "",
+  location: "",
+  contacts: (),
+  summary: "",
+  photo: none,
+  theme-color: rgb("#26428b"),
+  font: "New Computer Modern",
+  font-size: 11pt,
+  lang: "en",
+  margin: (
+    top: 1cm,
+    bottom: 0cm,
+    left: 1cm,
+    right: 1cm,
+  ),
+  body,
+) = {
+  set document(author: author, title: author)
+
+  set text(
+    font: font,
+    size: font-size,
+    lang: lang,
+    ligatures: false,
+  )
+
+  set page(margin: margin)
+
+  show link: set text(fill: rgb("#0645AD"))
+  show heading: set text(fill: rgb(theme-color))
+  show heading: it => [
+    #pad(top: -0.3em, bottom: -0.8em, [#smallcaps(it.body)])
+    #line(length: 100%, stroke: 1pt)
+  ]
+
+  align(center)[
+    #block(text(weight: 700, 2.5em, [#smallcaps(author)]))
+  ]
+
+        [#h(17em) #contacts.join("   ")]
+  grid(
+    columns: if photo == none { (1fr,) } else { (3cm, 1fr) },
+    column-gutter: 0.6cm,
+    align: (center, top),
+    if photo != none {
+      v(-0.5em)
+      align(right)[#photo]
+    },
+    [
+      #{
+        if location != "" {
+          align(center)[
+            #smallcaps[#location]
+          ]
+        }
+      }
+
+      #{
+        if summary != "" {
+          pad(
+            top: 0.25em,
+            align(center)[
+              #summary
+            ],
+          )
+        }
+      }
+    ],
+  )
+
+  set par(justify: true)
+
+  body
+}
+
+#show: resume-with-photo.with(
   author: name,
   //location: location,
   contacts: contacts,
   summary: summary,
+  photo: box(
+    clip: true,
+    radius: 1.625cm,
+    width: 3.25cm,
+    height: 3.25cm,
+    image("assets/photo.jpeg", height: 3.75cm),
+  ),
   theme-color: theme,
   font: font,
   font-size: fontSize,
@@ -149,7 +232,7 @@
   date: [2021 -- Ongoing],
   location: "",
   details: [
-    - Early-stage research investigating the impact of endometriosis treatment on sexual function. This work is currently pending ethics approval. My involvement is focused on preparing the ethics application and contributing to the development of Latvian, English and Russian versions of the Female Sexual Function Index (FSFI) questionnaire. _Ongoing_
+    - Early-stage research investigating the impact of endometriosis treatment on sexual function. My involvement is focused on preparing the ethics application and contributing to the development of Latvian, English and Russian versions of the Female Sexual Function Index (FSFI) questionnaire. _Ongoing_
     - Metabolomic changes in fracture-related infections in collaboration with the Baltic Biomaterials Center of Excellence and the AO Davos Research Institute. I processed a portion of the tissue samples and I used custom code to collate and validate all patient records for the study. _Ongoing_
     - Relationship between Ambient Air Pollution and Temperature with Acute Hospitalization due to Exacerbation of Cardiovascular Diseases. Will be handling data analysis and visualization. _Ongoing_
     - Documented the evolution of a subset of the COVID-regulations in Latvia throughout
